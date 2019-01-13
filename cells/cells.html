@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-        <title>Boot</title>
+        <title>NSS Cells</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -11,9 +11,9 @@
         <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     </head>
     <body>
+
         
-        
-        
+
         <div class="container-fluid p-0">
             <div class="header1" data-stellar-background-ratio="0.5">
                 <div class="text-center">
@@ -22,19 +22,19 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-        
+
+
+
+
         <div class="section-1">
             <div class="container" style="max-width: 900px">
                 <h1 class="heading-1 text-center"></h1>
                 <p class="para-1"></p>
-                
+
             </div>
         </div>
-        
-        
+
+
         <div class="section-2">
             <div class="container-fluid">
             <div class="container">
@@ -48,7 +48,7 @@
             </div>
             </div>
         </div>
-        
+
         <div class="section-3">
             <div class="container">
                 <div class="row">
@@ -71,50 +71,50 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        
+
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script type="text/javascript">
-            
+
             var query;
             $(document).ready(function(){
                 $.getJSON('https://anwesha2k19-grobo.firebaseio.com/.json')
                 .then(func);
-                
-                //function for retrecing query string
-                function getQueryStringValue (key){  
-                  return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
-                }  
 
-                // Would write the value of the QueryString-variable called name to the console  
+                //function for retrecing query string
+                function getQueryStringValue (key){
+                  return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+                }
+
+                // Would write the value of the QueryString-variable called name to the console
                 query=getQueryStringValue("cell");
-                
-                
-               /* 
-                if(query===''){ 
+
+
+               /*
+                if(query===''){
                     $('.header1 h1').text("NSS IITP");
                     $('.header1 p').text("hello world!");
                     $('.header1').css('background-image', 'url(images/environment/img_2.jpg)');
-                     
+
                     $('.section-1 .heading-1').text(main.header);
                     $('.section-1 .para-1').text(main.sub_header);
                 }
-                        */        
+                        */
             });
-            
-            
-            
-            
+
+
+
+
             function func(data){
                 console.log(data);
                 var q=query;
@@ -122,7 +122,7 @@
                 $('.header1 h1').text(dt.header);
                 $('.header1 p').html(dt.header_text);
                 $('.header1').css('background-image', 'url("' + dt.image_url + '")');
-                
+
                 /*section 1*/
                 var main=dt.section_main;
                 $('.section-1 .heading-1').text(main.header);
@@ -131,9 +131,9 @@
                 maincont.forEach(function(cont){
                     var card=$('<div class="row"><div class="col-md-6"><div class="img"><img src="'+cont.event_image_url+'"></div></div><div class="col-md-6"><div class="content"><h4>'+cont.event_name+'</h4><p>'+cont.event_text+'</p></div></div></div>');
                     $('.section-1 .container').append(card);
-                      
+
                 })
-                
+
                 /*section 2*/
                 var sec=dt.section_aims;
                 $('.section-2').css('background-image', 'url("' + sec.section_image_url + '")');
@@ -144,10 +144,10 @@
                     var card=$('<div class="col-lg-3 col-md-6"><div class="card"><img src="'+cont.event_image_url+'" class="card-img-top"><div class="card-body"><h4 class="card-title">'+cont.event_name+'</h4><p class="card-text">'+cont.event_text+'</p></div></div></div>');
                     $('.section-2 .container .row').append(card);
                 });
-                
-                
-                
-                
+
+
+
+
                 /*section 3*/
                 var team=dt.section_team;
                 var teamcont=team.content;
@@ -159,18 +159,18 @@
                      var card=$('<div class="col col-lg-2 col-md-4 col-sm-6"><div class="card"><div class="img"><img src="'+cont.image_url+'" class="card-img-top"></div><div class="card-body"><h4 class="card-title">'+cont.name+'</h4></div></div></div>');
                     $('.section-3 .container .cards .row').append(card);
                 })
-                
-                
+
+
             }
 
         </script>
-        
+
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="jquery.stellar.js"></script>
         <script type="text/javascript">
             $.stellar();
         </script>
-        
-        
+
+
     </body>
-</html> 
+</html>
