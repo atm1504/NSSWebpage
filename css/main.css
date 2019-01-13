@@ -133,10 +133,11 @@ body>section {
 
 .logo
 { font-size:40px;
-border-bottom:10px;
+
 }
 .logo:hover
 { font-size:50px;
+  color: red;
 }
 
 .center {
@@ -1389,7 +1390,6 @@ a.accordion-toggle i {
 .portfolio-items>li {
     float: left;
     padding: 0;
-
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -1397,7 +1397,9 @@ a.accordion-toggle i {
 .portfolio-item {
     margin: 0;
     padding: 0;
-  
+    height: 280px;
+    width: 280px;
+
 }
 
 
