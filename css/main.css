@@ -119,6 +119,14 @@ body>section {
     padding: 70px 0;
 }
 
+.logo
+{ font-size:40px;
+border-bottom:10px;
+}
+.logo:hover
+{ font-size:50px;
+}
+
 .center {
     text-align: center;
     padding-bottom: 55px;
