@@ -6,6 +6,15 @@
   position: relative;
   background-repeat: no-repeat;
    background-size: 100% 100%;
+
+}
+.mask1 {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+  mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+}
+.mask2 {
+  -webkit-mask-image: radial-gradient(circle at 50% 60%, black 50%, rgba(0, 0, 0, 0.6) 50%);
+  mask-image: radial-gradient(circle at 50% 60%, black 50%, rgba(0, 0, 0, 0.6) 50%);
 }
 
 #pricing .section-title-header .section-title {
