@@ -51,6 +51,18 @@ a {
     -webkit-transition: color 300ms, background-color 300ms;
     transition: color 300ms, background-color 300ms;
 }
+.texts {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #1201aa 0%, #bf0303 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+
 
 a:hover,
 a:focus {
@@ -167,14 +179,18 @@ body>section {
 }
 
 .page-title{
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 .page-title h1{
-    color: #fff;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
     margin: 0;
     text-align: center;
-    font-size: 64px;
+    font-size: 84px;
 }
 
 
@@ -1330,7 +1346,7 @@ a.accordion-toggle i {
 .portfolio-items,
 .portfolio-filter {
     list-style: none outside none;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 
@@ -1365,6 +1381,7 @@ a.accordion-toggle i {
 .portfolio-items>li {
     float: left;
     padding: 0;
+
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -1372,6 +1389,7 @@ a.accordion-toggle i {
 .portfolio-item {
     margin: 0;
     padding: 0;
+  
 }
 
 
