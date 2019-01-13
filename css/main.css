@@ -1361,6 +1361,7 @@ a.accordion-toggle i {
 
 .portfolio-filter>li {
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .portfolio-filter>li a {
