@@ -2577,7 +2577,8 @@ shortcodes page css
 {
 #footer .pull-left
 {
-padding-left:30%;
+margin-left:30%;
+
 
 }
 }
@@ -2585,7 +2586,24 @@ padding-left:30%;
 {
 #footer .pull-right
 {
-padding-left:30%;
+margin-left:30%;
+
+}
+}
+@media (max-width:420px)
+{
+#footer .pull-left
+{
+margin-left:20%;
+
+
+}
+}
+@media (max-width:420px)
+{
+#footer .pull-right
+{
+margin-left:20%;
 
 }
 }
