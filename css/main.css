@@ -2577,12 +2577,29 @@ shortcodes page css
 {
 #footer .pull-left
 {
-margin-left:20%;
+margin-left:30%;
 
 
 }
 }
 @media (max-width:700px)
+{
+#footer .pull-right
+{
+margin-left:30%;
+
+}
+}
+@media (max-width:420px)
+{
+#footer .pull-left
+{
+margin-left:20%;
+
+
+}
+}
+@media (max-width:420px)
 {
 #footer .pull-right
 {
