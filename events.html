@@ -36,7 +36,7 @@
 <style>
 
 </style>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <!--/head-->
 
@@ -91,7 +91,12 @@
     </header>
     <!--/header-->
 
-
+    <div class="header1" data-stellar-background-ratio="0.5">
+        <div class="text-center">
+            <h1 style="font-size:5em">EVENTS</h1>
+            <p></p>
+        </div>
+    </div>
 
     <section id="about" style="background-color:#F8F7FE">
       <div class="container">
@@ -103,65 +108,13 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="images/mainNSS/youth.jpg" alt="" >
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>12 Jan 2019</h4>
-                    <h4 class="subheading">National Youth Day</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">NSS IITP organised a march on the occasion of youth day on 12th Jan 2019 to promote the ideology of precious gem of India Swami Vivekananda.
-    NSS IITP salute the great leader Swami Vivekananda and also to youth power of India.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="images/mainNSS/cloth.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2018</h4>
-                    <h4 class="subheading">Cloth Collection & Donation</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">With an aim to improvise and giving a better life the Rural Development Team of <span style="color: #15d445">NSS IIT Patna</span> collected clothes that are donated
-                        by the Campus Staff and Faculty and Donated it to the Needy People of Nearby Area.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="images/mainNSS/flood.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>August 2018</h4>
-                    <h4 class="subheading">Kerala Flood Relief</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">The <span style="color:rgb(230, 72, 10);">Chetna Team</span> in collaboration with the <span style="color: #14418a">Student's Gymkhana</span>, along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala.
-                        A handsome amount of funds were collected from the Boy's hostel, the Girl's hostel and the Faculty quarter of IIT Patna.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>More Events
-                    <br>are
-                    <br>Waiting!!</h4>
-                </div>
-              </li>
+            <ul class="timeline" id="eventshow">
+
             </ul>
           </div>
         </div>
       </div>
     </section>
-
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -212,7 +165,6 @@
           }
         }
         </script>
-
         <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -221,6 +173,54 @@
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<!--        Importing jqueries and all those stuffs                       -->
+
+<!--        Importing of jqueries and all those stuffs  ends                     -->
+
+<!--      JSON Data parsing -->
+
+<script>
+
+
+      var jsons = {"content":[
+              {
+                "id":"1",
+                "subheading":"National Youth Day",
+                "date":"12 Jan 2019",
+                "details":"NSS IITP organised a march on the occasion of youth day on 12th Jan 2019 to promote the ideology of precious gem of India Swami Vivekananda.NSS IITP salute the great leader Swami Vivekananda and also to youth power of India.",
+                "img_url":"images/mainNSS/youth.jpg"
+              },
+              {
+                "id":"2",
+                "subheading":"Cloth Collection & Donation",
+                "date":"December 2018",
+                "details":"With an aim to improvise and giving a better life the Rural Development Team of <span style='color: #15d445'>NSS IIT Patna</span> collected clothes that are donated by the Campus Staff and Faculty and Donated it to the Needy People of Nearby Area.",
+                "img_url":"images/mainNSS/cloth.jpg"
+              },
+              {
+                "id":"1",
+                "subheading":"Kerala Flood Relief",
+                "date":"August 2018",
+                "details":"The <span style='color:rgb(230, 72, 10);'>Chetna Team</span> in collaboration with the <span style='color: #14418a'>Student's Gymkhana</span>, along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala. A handsome amount of funds were collected from the Boy's hostel, the Girl's hostel and the Faculty quarter of IIT Patna.",
+                "img_url":"images/mainNSS/flood.jpg"
+          }
+        ]
+      };
+      var  x;
+      var contents=jsons.content;
+      var datas="";
+      for (i in contents){
+        datas=contents[i];
+        if (datas.id=="1"){
+          x+=  "<li class='timeline-straight' style='background-color:#C0FFFF'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+      }
+        else {
+          x+=  "<li class='timeline-inverted' style='background-color:#FFDAE0'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+    }}
+          document.getElementById("eventshow").innerHTML=x;
+</script>
 </body>
 
 </html>
