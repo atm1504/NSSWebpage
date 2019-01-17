@@ -36,14 +36,11 @@
 <style>
 
 </style>
-<script src="jquery-3.3.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <!--/head-->
 
 <body class="homepage">
-
-
     <header id="header">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -96,11 +93,10 @@
 
     <div class="header1" data-stellar-background-ratio="0.5">
         <div class="text-center">
-            <h1 class=""></h1>
+            <h1 style="font-size:5em">EVENTS</h1>
             <p></p>
         </div>
     </div>
-
 
     <section id="about" style="background-color:#F8F7FE">
       <div class="container">
@@ -112,48 +108,13 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <ul class="timeline">
-
-
-              <li class="timeline-straight" style="background-color:red">       <!---Left side image-->
-                <div class="timeline-image ">
-             <!--      <img class=" rounded-circle img-fluid img_url" src="images/mainNSS/youth.jpg" alt="" > -->
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="date"></h4>            <!--Date of the event-->
-                    <h4 class="subheading"></h4>      <!--Heading of the event-->
-                  </div>
-                  <div class="timeline-body">
-                    <p class="details"></p>       <!--Details of the event-->
-                  </div>
-                </div>
-              </li>
-
-
-              <li class="timeline-inverted" style="background-color:blue">            <!---Right side image-->
-                <div class="timeline-image">
-            <!--       <img class="rounded-circle img-fluid" src="images/mainNSS/cloth.jpg" alt="">        Parse in json file the class name -->
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="date"></h4>          <!--Date of the event-->
-                    <h4 class="subheading"></h4>     <!--Heading of the event-->
-                  </div>
-                  <div class="timeline-body">
-                    <p class="details"></p>     <!--Details of the event-->
-                  </div>
-                </div>
-              </li>
-
-
+            <ul class="timeline" id="eventshow">
 
             </ul>
           </div>
         </div>
       </div>
     </section>
-
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -216,62 +177,50 @@
 
 <!--        Importing jqueries and all those stuffs                       -->
 
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <!--        Importing of jqueries and all those stuffs  ends                     -->
 
 <!--      JSON Data parsing -->
 
-<script type="text/javascript">
-
-var query;
-$(document).ready(function(){
-    $.getJSON('events.json')
-    .then(func);
-
-    //function for retrecing query string
-    function getQueryStringValue (key){
-      return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
-    }
-
-    // Would write the value of the QueryString-variable called name to the console
-    query=getQueryStringValue("cell");
-
-});
-
-function func(data){
-    console.log(data);
-    var q=query;
-    var dt=data.cells[q];
-    var eventcontents=dt.content;
-
-    eventcontents.forEach(function(cont){
-      $('.homepage .header1 h1').text(eventcontents.subheading);
-        var card=$('<img class="rounded-circle img-fluid" src="'+eventcontents.img_url+'" alt="">');
-        $(.homepage #about .timeline .timeline-straight .timeline-image).append(card);
-
-});
+<script>
 
 
-
-
-}
-
+      var jsons = {"content":[
+              {
+                "id":"1",
+                "subheading":"National Youth Day",
+                "date":"12 Jan 2019",
+                "details":"NSS IITP organised a march on the occasion of youth day on 12th Jan 2019 to promote the ideology of precious gem of India Swami Vivekananda.NSS IITP salute the great leader Swami Vivekananda and also to youth power of India.",
+                "img_url":"images/mainNSS/youth.jpg"
+              },
+              {
+                "id":"2",
+                "subheading":"Cloth Collection & Donation",
+                "date":"December 2018",
+                "details":"With an aim to improvise and giving a better life the Rural Development Team of <span style='color: #15d445'>NSS IIT Patna</span> collected clothes that are donated by the Campus Staff and Faculty and Donated it to the Needy People of Nearby Area.",
+                "img_url":"images/mainNSS/cloth.jpg"
+              },
+              {
+                "id":"1",
+                "subheading":"Kerala Flood Relief",
+                "date":"August 2018",
+                "details":"The <span style='color:rgb(230, 72, 10);'>Chetna Team</span> in collaboration with the <span style='color: #14418a'>Student's Gymkhana</span>, along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala. A handsome amount of funds were collected from the Boy's hostel, the Girl's hostel and the Faculty quarter of IIT Patna.",
+                "img_url":"images/mainNSS/flood.jpg"
+          }
+        ]
+      };
+      var  x;
+      var contents=jsons.content;
+      var datas="";
+      for (i in contents){
+        datas=contents[i];
+        if (datas.id=="1"){
+          x+=  "<li class='timeline-straight' style='background-color:#C0FFFF'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+      }
+        else {
+          x+=  "<li class='timeline-inverted' style='background-color:#FFDAE0'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+    }}
+          document.getElementById("eventshow").innerHTML=x;
 </script>
-<!--Data parsing ends --->
-
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-<script src="jquery.stellar.js"></script>
-<script type="text/javascript">
-    $.stellar();
-</script>
-
 </body>
 
 </html>
