@@ -204,7 +204,8 @@
     function displayAll(data){
       var  x="";
       var jsons=data;
-      var contents=jsons.content;
+      var types=jsons.type;
+      var contents=types.events;
       var datas="";
       for (i in contents){
         datas=contents[i];
