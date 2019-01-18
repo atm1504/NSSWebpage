@@ -126,7 +126,19 @@ a:focus {
 .media>.pull-right {
     margin-left: 20px;
 }
+/* Added by Amartya*/
 
+.cell_anim:hover{
+height:320px;
+width:390px;
+background-color: white;
+}
+
+.rounded_corner{
+border-radius: 25px;
+border: 2px solid #73AD21;}
+
+/*--------------*/
 body>section {
     padding: 70px 0;
 }
@@ -500,7 +512,7 @@ input.search-form:hover {
     margin-bottom: 0;
   /**  background: #332965;*/
   background-image: linear-gradient(to right, red , blue);
-    padding: 10px 0;
+    padding: 5px 0;
     padding-bottom: 0;
 }
 
@@ -516,12 +528,12 @@ input.search-form:hover {
 }
 
 .navbar-nav>li {
-    margin-left: 25px;
+    margin-left: 12px;
     padding-bottom: 28px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    padding: 5px 12px;
+    padding: 5px 6px;
     margin: 0;
     border-radius: 3px;
     color: #fff;
@@ -2565,7 +2577,40 @@ shortcodes page css
 #footer a {
     color: #fff;
 }
+@media (max-width:700px)
+{
+#footer .pull-left
+{
+margin-left:30%;
 
+
+}
+}
+@media (max-width:700px)
+{
+#footer .pull-right
+{
+margin-left:30%;
+
+}
+}
+@media (max-width:420px)
+{
+#footer .pull-left
+{
+margin-left:20%;
+
+
+}
+}
+@media (max-width:420px)
+{
+#footer .pull-right
+{
+margin-left:20%;
+
+}
+}
 #footer a:hover {
     color: #EC5538;
 }
