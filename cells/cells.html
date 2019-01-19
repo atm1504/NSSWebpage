@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link rel="icon" href="images/nss-logo.png">
+        <link rel="icon" href="images/nss.png">
         <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="cells_style.css">
     </head>
@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="bg"></div>
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="../images/mainNSS/nssweb.png" alt="logo"></a>
+                <a class="navbar-brand" href="#"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -113,7 +113,28 @@
             </div>
         </div>
 
-
+        
+        <footer>
+            <div class="container">
+                <div class="one d-flex flex-row justify-content-center">
+                    <a href="https://www.facebook.com/nssiitp/"><i class="fab fa-facebook-f m-2"></i></a>
+                    <a href="https://twitter.com/nss_iitp"><i class="fab fa-twitter m-2"></i></a>
+                    <a href="https://www.instagram.com/nss_iit_patna/"><i class="fab fa-instagram m-2"></i></a>
+                    <a href="https://www.linkedin.com/company/nssiitp/"><i class="fab fa-linkedin m-2"></i></a>
+                </div>
+                <div class="two d-flex flex-row justify-content-center">
+                    <a href="mailto:nss@iitp.ac.in"><i class="fas fa-envelope"></i>nss@iitp.ac.in</a>
+                    <a href="tel:+918967570983"><i class="fas fa-phone"></i>+91-8967570983</a>
+                </div>
+            </div>
+            <div class="container">
+                <hr>
+                <h5 class="text-center">Copyright &copy; All Rights Reserved || NSS IITP Web Dev Team</h5>
+            </div>
+        </footer>
+        
+        
+        
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -124,9 +145,7 @@
 
             var query;
             $(document).ready(function(){
-                $.getJSON('https://anwesha2k19-grobo.firebaseio.com/.json')
-                .then(func);
-
+                
                 //function for retrecing query string
                 function getQueryStringValue (key){
                   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
@@ -134,13 +153,15 @@
 
                 // Would write the value of the QueryString-variable called name to the console
                 query=getQueryStringValue("cell");
+                
+                $.getJSON('https://anwesha2k19-grobo.firebaseio.com/cells/'+query+'/.json')
+                .then(func);
             });
 
 
             function func(data){
                 console.log(data);
-                var q=query;
-                var dt=data.cells[q];
+                var dt=data;
                 $('.header1 h1').text(dt.header);
                 $('.header1 p').html(dt.header_text);
                 $('.header1').css('background-image', 'url("' + dt.image_url + '")');
