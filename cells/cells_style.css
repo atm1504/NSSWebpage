@@ -46,16 +46,17 @@ body{
     color: #fff;
 }
 .navbar .navbar-brand img{
-    width: 150px;
+    width: 60px;
     height: 60px;
     transition: .5s;
+    margin-right: 10px;
 }
 .navbar .navbar-nav .nav-item .nav-link{
     color: #fff;
 }
 .navbar.bg-active .navbar-brand img{
-    height: 50px;
-    width: 120px;
+    height: 40px;
+    width: 40px;
     transition: .5s;
 }
 
@@ -199,6 +200,9 @@ body{
     text-align: justify;
     font-size: .9em;
 }
+.section-2 .card .card-title{
+    font-size: 1.2em;
+}
 .section-2 .card{
     margin-bottom: 5%;
 }
@@ -298,4 +302,44 @@ body{
 .section-3 .mentor:hover img{
     transform: scale(1.1);
     transition: .5s;
+}
+
+
+
+
+footer{
+    background: #676262;
+}
+footer .one i{
+    font-size: 2em;
+    margin: 10px;
+    color: #fff;
+    transition: .5s;
+}
+footer .two i{
+    font-size: 1.5em;
+    margin: 10px;
+    transform: translateY(5px) rotateY(180deg);
+    transition: .5s;
+}
+footer h5{
+    font-size: .8em;
+    color: #bbb;
+    padding-bottom: 10px;
+}
+footer .two{
+    color: #fff;
+}
+footer .two a{
+    margin-right: 20px;
+    font-size: 1.5em;
+    color: #fff;
+}
+footer .one i:hover{
+    transform: rotateY(360deg);
+    color: #00baff;
+}
+footer .two a:hover i{
+    transform: translateY(5px) rotateY(540deg);
+    color: #26cc3a;
 }
