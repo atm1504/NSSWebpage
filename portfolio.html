@@ -27,6 +27,16 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 <style>
+.blinking{
+	animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #4F01F9;	}
+	49%{	color: #01AEF9;	}
+	50%{	color: #01F918;	}
+	99%{	color:#F95401;	}
+	100%{	color: #F90118;	}
+}
     #rcorners2 {
       border-radius: 25px;
       border: 2px solid #2709E5;
@@ -81,8 +91,8 @@
                       <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu">
-                              <li><a href="blog-item.html">About Us</a></li>
-                              <li><a href="pricing.html">Our Core Team</a></li>
+                              <li><a href="about-us.html">About Us</a></li>
+                              <li><a href="team.html">Our Core Team</a></li>
                               <li><a href="faq.html">Faqs</a></li>
                           </ul>
                       </li>
@@ -95,11 +105,10 @@
           <!--/.container-->
       </nav>
       <!--/nav-->
-
   </header>
   <!--/header-->
 
-    <div class="page-title" style="background:url(images/mainNSS/plate2.jpg)" >
+    <div class="page-title" style="background:url(images/mainNSS/plate2.jpg); background-repeat: no-repeat;background-size: 100% 100%;height:200px;z-index:10000">
         <h1 style="color:black" >Gallery</h1>
     </div>
 
@@ -108,11 +117,12 @@
 
             <ul class="portfolio-filter text-center">
                 <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
+                <li style=""><a class="btn btn-default blinking" href="#" data-filter=".upcoming"><b>Upcoming Events</b></a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".alumini">Alumini Interaction</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".blood">Blood Donation</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".plant">Plantation</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".cloth">Cloth Distribution</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".atm">Technical Skill & Teaching</a></li>
+                <li><a class="btn btn-default" href="#" data-filter='.atm'>Technical Skill & Teaching</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".youth">Youth Day</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".ashraya">Ashraya</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".gandhi">Gandhi Jayanti</a></li>
@@ -145,6 +155,16 @@
                         </div>
                     </div>
                     <!--/.portfolio-item-->
+                    <div class="portfolio-item joomla upcoming col-xs-12 col-sm-4 col-md-3 single-work">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="images/upcoming/up1.jpg" alt="" id="rcorners2">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="iimages/upcoming/up1.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="portfolio-item blood col-xs-12 col-sm-4 col-md-3 single-work">
                         <div class="recent-work-wrap">
@@ -152,6 +172,16 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <a class="preview" href="images/blood/item3.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item joomla upcoming col-xs-12 col-sm-4 col-md-3 single-work">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="images/upcoming/up2.jpg" alt="" id="rcorners2">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="iimages/upcoming/up2.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -174,6 +204,15 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <a class="preview" href="images/blood/item5.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="portfolio-item joomla upcoming col-xs-12 col-sm-4 col-md-3 single-work">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="images/upcoming/up3.jpg" alt="" id="rcorners2">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="iimages/upcoming/up3.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -736,6 +775,36 @@
                             </div>
                         </div>
                     </div>
+                    <div class="portfolio-item joomla atm apps col-xs-12 col-sm-4 col-md-3 single-work">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="images/tech/reduced/nss11.jpg" alt="" id="rcorners2">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="images/tech/nss11.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item joomla atm apps col-xs-12 col-sm-4 col-md-3 single-work">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="images/tech/reduced/nss12.jpg" alt="" id="rcorners2">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="images/tech/nss12.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item joomla atm apps col-xs-12 col-sm-4 col-md-3 single-work">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="images/tech/reduced/nss13.jpg" alt="" id="rcorners2">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="images/tech/nss13.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                     <div class="portfolio-item joomla youth apps col-xs-12 col-sm-4 col-md-3 single-work">
@@ -783,82 +852,7 @@
                     </div>
 
 
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss1.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss1.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss3.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss3.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss2.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss2.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss4.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss4.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss5.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss5.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss6.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss6.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/gan_jay/reduced/nss7.JPG" alt="" id="rcorners2">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <a class="preview" href="images/gan_jay/nss7.JPG" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="portfolio-item joomla gandhi apps col-xs-12 col-sm-4 col-md-3 single-work">
                         <div class="recent-work-wrap">
