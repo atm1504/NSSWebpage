@@ -11,8 +11,48 @@
         <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     </head>
     <body>
-
-
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">NSS IIT Patna</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mainNavbar" style="float: right">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Prayatna</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                Cells
+                            </a>
+                            <ul class="dropdown-menu">
+                              <a class="dropdown-item" href="cells/cells.html?cell=technical">Technical Skills</a>
+                              <a class="dropdown-item" href="cells/cells.html?cell=rural">Rural Development</a>
+                              <a class="dropdown-item" href="cells/cells.html?cell=chetna">Chetna</a>
+                              <a class="dropdown-item" href="cells/cells.html?cell=teaching">Teaching</a>
+                              <a class="dropdown-item" href="cells/cells.html?cell=environment">Environment</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                              <a class="dropdown-item" href="#">About Us</a>
+                              <a class="dropdown-item" href="#">Our Core Team</a>
+                              <a class="dropdown-item" href="#">FAQs</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Think Thank</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Check Hours</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
 
         <div class="container-fluid p-0">
             <div class="header1" data-stellar-background-ratio="0.5">
@@ -93,20 +133,6 @@
 
                 // Would write the value of the QueryString-variable called name to the console
                 query=getQueryStringValue("cell");
-
-
-               /*
-                if(query===''){
-                    $('.header1 h1').text("NSS IITP");
-                    $('.header1 p').text("hello world!");
-                    $('.header1').css('background-image', 'url(images/environment/img_2.jpg)');
-
-                    $('.section-1 .heading-1').text(main.header);
-                    $('.section-1 .para-1').text(main.sub_header);
-                }
-                        */
-            });
-
 
 
 
