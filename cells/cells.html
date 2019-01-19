@@ -113,7 +113,7 @@
             </div>
         </div>
 
-        
+
         <footer>
             <div class="container">
                 <div class="one d-flex flex-row justify-content-center">
@@ -132,9 +132,9 @@
                 <h5 class="text-center">Copyright &copy; All Rights Reserved || NSS IITP Web Dev Team</h5>
             </div>
         </footer>
-        
-        
-        
+
+
+
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -145,7 +145,7 @@
 
             var query;
             $(document).ready(function(){
-                
+
                 //function for retrecing query string
                 function getQueryStringValue (key){
                   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
@@ -153,7 +153,7 @@
 
                 // Would write the value of the QueryString-variable called name to the console
                 query=getQueryStringValue("cell");
-                
+
                 $.getJSON('https://anwesha2k19-grobo.firebaseio.com/cells/'+query+'/.json')
                 .then(func);
             });
@@ -209,7 +209,7 @@
         </script>
 
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-        
+
         <script type="text/javascript">
             $(window).on('scroll',function(){
                 if($(window).scrollTop()){
@@ -220,7 +220,7 @@
                 }
             })
         </script>
-        
+
         <script src="jquery.stellar.js"></script>
         <script type="text/javascript">
             $.stellar();
