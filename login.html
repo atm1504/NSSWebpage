@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Check Hours | NSS IITP</title>
+
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/login.css">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" href="images/mainNSS/logo.ico">
+<link rel="apple-touch-icon-precomposed" href="images/mainNSS/logo.jpeg">
+
+<style>
+.nav-item>li>a:hover{
+  background-color: #aa0b00;
+  color: #fff;
+}
+</style>
+
+
+</head>
+<body class="body-prop" >
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="background-image: linear-gradient(to right, blue , red);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img src="images/mainNSS/nssweb.png" style="height:40px" alt="">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item " ><a class="nav-link" href="index.html" >Home</a></li>
+          <li class="nav-item "><a class="nav-link" href="portfolio.html">Gallery</a></li>
+          <li class="nav-item "><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item "><a class="nav-link" href="#">Prayatna</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cells</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="cells/cells.html?cell=technical">Technical Skill</a>
+              <a class="dropdown-item" href="cells/cells.html?cell=rural">Rural Development</a>
+                <a class="dropdown-item" href="cells/cells.html?cell=chetna">Chetnat</a>
+                  <a class="dropdown-item" href="cells/cells.html?cell=teaching">Teaching</a>
+                    <a class="dropdown-item" href="cells/cells.html?cell=environment">Environmental</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about-us.html">About Us</a>
+              <a class="dropdown-item" href="team.html">Our Core Team</a>
+                <a class="dropdown-item" href="faq.html">FAQ's</a>
+              </div>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Think Thank</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Check Hours</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div class="login-wrap ">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Student Login</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Mentor Login</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+				<a href="profile/profile.html">	<input type="submit" class="button" value="Student Sign In"></a>
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot">Forgot Password?</a>
+				</div>
+			</div>
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+        <div class="group">
+          <input id="check" type="checkbox" class="check" checked>
+          <label for="check"><span class="icon"></span> Keep me Signed in</label>
+        </div>
+				<div class="group">
+					<input type="submit" class="button" value="Mentor Sign In">
+				</div>
+				<div class="hr"></div>
+        <div class="foot-lnk">
+          <a href="#forgot">Forgot Password?</a>
+        </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+
+</html>

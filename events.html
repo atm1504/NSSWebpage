@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | NSS IIT Patna</title>
+    <title>Events | NSS IIT Patna</title>
 
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,6 +34,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
 <style>
 .page-title{
 
@@ -49,6 +50,17 @@
   .h2{
     font-size:10px;
   }
+}
+
+.blinking{
+	animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #4F01F9;	}
+	49%{	color: #01AEF9;	}
+	50%{	color: #FE020E;	}
+	99%{	color:#F95401;	}
+	100%{	color: #F90118;	}
 }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -88,13 +100,13 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">About Us</a></li>
-                                <li><a href="pricing.html">Our Core Team</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="team.html">Our Core Team</a></li>
                                 <li><a href="faq.html">Faqs</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog.html">Think-Thank</a></li>
-                        <li><a href="blog.html">Check-Hours</a></li>
+                        <li><a href="think_thank.html">Think-Thank</a></li>
+                        <li><a href="login.html">Check-Hours</a></li>
 
                     </ul>
                 </div>
@@ -106,17 +118,13 @@
     </header>
     <!--/header-->
     <div class="page-title" style=" background-image: url(images/mainNSS/plate2.jpg);background-repeat: no-repeat;background-size: 100% 100%;height:200px;">
-          <h2 style="font-size:9em; color:#000000; text-align:center;" >EVENTS</h2>
+          <h2 style="font-size:9em; color:#000000; text-align:center;" class="blinking">EVENTS</h2>
+
 
     </div>
-    <section id="pricing" style="background-color:#F8F7FE">
+    <section id="pricing" style="background-image:url(images/mainNSS/plate5.jpg); color:white">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Recent Events</h2>
-            <h3 class="section-subheading text-muted">Not me But we all</h3>
-          </div>
-        </div>
+
         <div class="row">
           <div class="col-lg-12">
             <ul class="timeline" id="eventshow">
@@ -210,10 +218,10 @@
       for (i in contents){
         datas=contents[i];
         if (datas.id=="1"){
-          x+=  "<li class='timeline-straight' style='background-color:#C0FFFF'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+          x+=  "<li class='timeline-straight' > <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
       }
         else {
-          x+=  "<li class='timeline-inverted' style='background-color:#FFDAE0'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+          x+=  "<li class='timeline-inverted'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
     }}
 
           document.getElementById("eventshow").innerHTML=x;
