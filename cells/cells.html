@@ -21,11 +21,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="mainNavbar" style="float: right">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="../portfolio.html">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="../events.html">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Prayatna</a></li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown" style="background: red; border-radius: 3px">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                                 Cells
                             </a>
@@ -59,7 +59,7 @@
         <div class="container-fluid p-0">
             <div class="header1" data-stellar-background-ratio="0.5">
                 <div class="text-center">
-                    <h1 class=""></h1>
+                    <h1></h1>
                     <p></p>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                 <p class="para-1 text-center"></p>
 
                 <div class="row">
-
+                    
                 </div>
 
             </div>
@@ -93,24 +93,7 @@
 
         <div class="section-3">
             <div class="container">
-                <div class="row">
-                    <div class="col1 col-lg-4">
-                        <h3 class="heading-1"></h3>
-                        <p class="para-1"></p>
-                        <div class="mentor">
-                            <div class="img">
-                                <img src="">
-                                <div class="one"></div>
-                                <div class="two"></div>
-                                <div class="three"></div>
-                            </div>
-                            <h3></h3>
-                        </div>
-                    </div>
-                    <div class="col2 col-lg-8 cards">
-                        <div class="row"></div>
-                    </div>
-                </div>
+                <iframe src=""></iframe>
             </div>
         </div>
 
@@ -161,7 +144,6 @@
 
 
             function func(data){
-                console.log(data);
                 var dt=data;
                 $('.header1 h1').text(dt.header);
                 $('.header1 p').html(dt.header_text);
@@ -193,16 +175,13 @@
 
 
                 /*section 3*/
+                $('.section-3 iframe').attr("src",query+".html");
                 var team=dt.section_team;
                 var teamcont=team.content;
-                $('.section-3 .row .heading-1').text(team.header);
-                $('.section-3 .row .para-1').text(team.sub_header);
-                $('.section-3 .row .mentor img').attr('src',team.mentor_image_url);
-                $('.section-3 .row .mentor h3').text(team.mentor_name);
-                teamcont.forEach(function(cont){
-                     var card=$('<div class="col col-lg-2 col-md-4 col-sm-6"><div class="card"><div class="img"><img src="'+cont.image_url+'" class="card-img-top"></div><div class="card-body"><h4 class="card-title">'+cont.name+'</h4></div></div></div>');
-                    $('.section-3 .container .cards .row').append(card);
-                })
+                $('.section-3 .row1 .heading-1').text(team.header);
+                $('.section-3 .row1 .para-1').text(team.sub_header);
+                $('.section-3 .row1 .mentor img').attr('src',team.mentor_image_url);
+                $('.section-3 .row1 .mentor h3').text(team.mentor_name);
 
 
             }
@@ -226,7 +205,5 @@
         <script type="text/javascript">
             $.stellar();
         </script>
-
-
     </body>
 </html>
