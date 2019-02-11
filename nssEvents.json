@@ -11,90 +11,97 @@
   },
   "type" : {
     "events" : [ {
+      "date" : "27 Jan,2019",
+      "details" : "With an aim to improvise and giving a better life the Rural Development Team of <span style='color: #15d445'>NSS IIT Patna</span> collected clothes that are donated by the Campus Staff and Faculty and Donated it to the Needy People of Nearby Area.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "2",
+      "img_url" : "images/events/prayas.jpg",
+      "subheading" : "Prayas"
+    }, {
       "date" : "12 Jan 2019",
       "details" : "NSS IITP organised a march on the occasion of youth day on 12th Jan 2019 to promote the ideology of precious gem of India Swami Vivekananda.NSS IITP salute the great leader Swami Vivekananda and also to youth power of India.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
       "id" : "1",
-      "img_url" : "images/mainNSS/youth.jpg",
+      "img_url" : "images/events/youth.jpg",
       "subheading" : "National Youth Day"
-    },
-     {
+    }, {
       "date" : "December 2018",
       "details" : "With an aim to improvise and giving a better life the Rural Development Team of <span style='color: #15d445'>NSS IIT Patna</span> collected clothes that are donated by the Campus Staff and Faculty and Donated it to the Needy People of Nearby Area.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
       "id" : "2",
-      "img_url" : "images/mainNSS/cloth.jpg",
+      "img_url" : "images/events/cloth1.jpg",
       "subheading" : "Cloth Collection & Donation"
-    },
-    {
+    }, {
       "date" : "August 2018",
       "details" : "The <span style='color:rgb(230, 72, 10);'>Chetna Team</span> in collaboration with the <span style='color: #14418a'>Student's Gymkhana</span>, along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala. A handsome amount of funds were collected from the Boy's hostel, the Girl's hostel and the Faculty quarter of IIT Patna.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
       "id" : "1",
-      "img_url" : "images/mainNSS/flood.jpg",
+      "img_url" : "images/events/flood.jpg",
       "subheading" : "Kerala Flood Relief"
-    } ,
-    {
-     "date" : "8 September 2018",
-     "details" : "An attitude of service always stands glorified! To implement this Chetna organised a blood donation camp which stood sucessful with collection of 80 units of blood.",
-     "id" : "2",
-     "img_url" : "images/mainNSS/cloth.jpg",
-     "subheading" : "Blood Donation"
-   },
-   {
-    "date" : "10 October 2018",
-    "details" : "The NSS body along with the team of Celesta served a helping hand to those who neede it. Its always good to give from what we have received. Being a witness of someones sm",
-    "id" : "1",
-    "img_url" : "images/mainNSS/cloth.jpg",
-    "subheading" : "Ashraya"
-  },
-  {
-   "date" : "Throughout the year",
-   "details" : "Environment team aim to keep our environment clean and green so that we can be a motivation to others also. There is regular conduction of plantation drives to keep the environment healty.",
-   "id" : "2",
-   "img_url" : "images/mainNSS/cloth.jpg",
-   "subheading" : "In Campus Plantation"
- },
- {
-  "date" : "Throughout the year",
-  "details" : "Adhering to the principle of father Gandhi's idea of Swatcha Bharat has motivated us. Our practices are to promote proper sanitaion and maintain a sense of swatchta throughout the campus.",
-  "id" : "1",
-  "img_url" : "images/mainNSS/cloth.jpg",
-  "subheading" : "Clean India"
-},
-{
- "date" : "November 2018",
- "details" : "Plantation drive was conducted inside the campus by NSS team, where many students, faculties, staffs adapted a tree of their own and took the responsibility to look after the trees.",
- "id" : "2",
- "img_url" : "images/mainNSS/cloth.jpg",
- "subheading" : "Plantation Drives"
-},
-{
- "date" : "Regular weekly classes",
- "details" : "English has become an integral part of our daily life. Focussing on this, the Technical Skill cell conduct regular classes of english for the students of the nearby villages. Weekly tests are conducted to check the proficiency of the students.",
- "id" : "1",
- "img_url" : "images/mainNSS/cloth.jpg",
- "subheading" : "Spoken English"
-},
-{
- "date" : "Regular weekly classes",
- "details" : "Today's world is a Digital World. Life cannot be imagined without the use of mobile & computers. Focussing on this view the Technical Skill cell conducts regular computer training classes in the nearby villages. They teach them all the basic stuffs related to computer along with daily usage facilities available online. ",
- "id":"2",
- "img_url" : "images/mainNSS/cloth.jpg",
- "subheading" : "Computer Education"
-},
-{
- "date" : "Regular weekly classes",
- "details" : "About 4 classes are conducted in a week and subjects are taught to the children of Amhara xvillage in a systematic manner.Subjects covering syllabus under JNVST are taught by the volunteers of Teaching cell. Weekly testa are also conducted to check the performance of the students",
- "id" : "1",
- "img_url" : "images/mainNSS/cloth.jpg",
- "subheading" : "Navodaya Training"
-},
-{
- "date" : "17 November 2018",
- "details" : "In order to put a hault on the usage of plastic our team members on 17 November 2018 decided to bring out the idea of usage of cloth bags from old cloths.",
- "id" : "1",
- "img_url" : "images/mainNSS/cloth.jpg",
- "subheading" : "Cloth bag from old clothes"
-}
-  ],
+    }, {
+      "date" : "8 September 2018",
+      "details" : "An attitude of service always stands glorified! To implement this Chetna organised a blood donation camp which stood sucessful with collection of 80 units of blood.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "2",
+      "img_url" : "images/events/blood.jpg",
+      "subheading" : "Blood Donation"
+    }, {
+      "date" : "10 October 2018",
+      "details" : "The NSS body along with the team of Celesta served a helping hand to those who neede it. Its always good to give from what we have received. Being a witness of someones sm",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "1",
+      "img_url" : "images/events/ashraya.jpg",
+      "subheading" : "Ashraya"
+    }, {
+      "date" : "Throughout the year",
+      "details" : "Environment team aim to keep our environment clean and green so that we can be a motivation to others also. There is regular conduction of plantation drives to keep the environment healty.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "2",
+      "img_url" : "images/events/cplant.jpg",
+      "subheading" : "In Campus Plantation"
+    }, {
+      "date" : "Throughout the year",
+      "details" : "Adhering to the principle of father Gandhi's idea of Swatcha Bharat has motivated us. Our practices are to promote proper sanitaion and maintain a sense of swatchta throughout the campus.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "1",
+      "img_url" : "images/events/swacchta.jpg",
+      "subheading" : "Clean India"
+    }, {
+      "date" : "November 2018",
+      "details" : "Plantation drive was conducted inside the campus by NSS team, where many students, faculties, staffs adapted a tree of their own and took the responsibility to look after the trees.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "2",
+      "img_url" : "images/events/iplant.jpg",
+      "subheading" : "Plantation Drives"
+    }, {
+      "date" : "Regular weekly classes",
+      "details" : "English has become an integral part of our daily life. Focussing on this, the Technical Skill cell conduct regular classes of english for the students of the nearby villages. Weekly tests are conducted to check the proficiency of the students.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "1",
+      "img_url" : "images/events/english.jpeg",
+      "subheading" : "Spoken English"
+    }, {
+      "date" : "Regular weekly classes",
+      "details" : "Today's world is a Digital World. Life cannot be imagined without the use of mobile & computers. Focussing on this view the Technical Skill cell conducts regular computer training classes in the nearby villages. They teach them all the basic stuffs related to computer along with daily usage facilities available online. ",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "2",
+      "img_url" : "images/events/comp.jpg",
+      "subheading" : "Computer Education"
+    }, {
+      "date" : "Regular weekly classes",
+      "details" : "About 4 classes are conducted in a week and subjects are taught to the children of Amhara xvillage in a systematic manner.Subjects covering syllabus under JNVST are taught by the volunteers of Teaching cell. Weekly testa are also conducted to check the performance of the students",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "1",
+      "img_url" : "images/events/navodaya.jpeg",
+      "subheading" : "Navodaya Training"
+    }, {
+      "date" : "17 November 2018",
+      "details" : "In order to put a hault on the usage of plastic our team members on 17 November 2018 decided to bring out the idea of usage of cloth bags from old cloths.",
+      "flink" : "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+      "id" : "2",
+      "img_url" : "images/events/cloth.jpg",
+      "subheading" : "Cloth bag from old clothes"
+    } ],
     "gallery" : {
       "imagetypeheading" : [ {
         "datafilter" : "*",
