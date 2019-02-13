@@ -60,7 +60,8 @@ body{
     transition: .5s;
 }
 
-@media(max-width:400px){
+@media(max-width:992px){
+
     .navbar.bg-active .bg{
         opacity: 0;
     }
