@@ -137,10 +137,10 @@
 
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script type="text/javascript">
-
+    
             var query;
             $(document).ready(function(){
-
+                
                 //function for retrecing query string
                 function getQueryStringValue (key){
                   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
@@ -149,12 +149,17 @@
                 // Would write the value of the QueryString-variable called name to the console
                 query=getQueryStringValue("cell");
 
-                $.getJSON('https://anwesha2k19-grobo.firebaseio.com/cells/'+query+'/.json')
-                .then(func);
-            });
+                $.ajaxSetup({
+                    async: false
+                });
+                $.getJSON('https://anwesha2k19-grobo.firebaseio.com/cells/'+query+'/.json', func);
+               
 
+            });
+           
 
             function func(data){
+
                 var dt=data;
                 $('.header1 h1').text(dt.header);
                 $('.header1 p').html(dt.header_text);
@@ -194,8 +199,24 @@
                 $('.section-3 .row1 .mentor img').attr('src',team.mentor_image_url);
                 $('.section-3 .row1 .mentor h3').text(team.mentor_name);
 
-
+                function preloader(){
+                    var loader=document.getElementById("loader");
+                    function loadNow(opacity){
+                        if(opacity<=0){
+                            loader.style.display='none';
+                        }
+                        else{
+                            loader.style.opacity=opacity;
+                            window.setTimeout(function(){
+                                loadNow(opacity - 0.01);
+                            },5);
+                        }
+                    }
+                    loadNow(1);
+                    }
+                preloader();
             }
+            
 
         </script>
 
@@ -218,25 +239,7 @@
         </script>
 
         <script>
-            var loader;
-            function loadNow(opacity){
-                if(opacity<=0){
-                    displayContent();
-                }
-                else{
-                    loader.style.opacity=opacity;
-                    window.setTimeout(function(){
-                        loadNow(opacity - 0.05);
-                    },100);
-                }
-            }
-            function displayContent(){
-                loader.style.display='none';
-            }
-            document.addEventListener("DOMContentLoaded",function(){
-                loader=document.getElementById("loader");
-                loadNow(1);
-            })
+        
         </script>
     </body>
 </html>
