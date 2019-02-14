@@ -7,24 +7,24 @@
       "image_url" : "images/chetna/chetna.jpg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/environment/video.jpg",
           "event_name" : "WASTE MANAGEMENT",
           "event_text" : "Planning proper waste management system in IIT Patna campus. Waste management is intended to reduce adverse effects of waste on health, environment and aesthetics."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/chetna/c1.jpg",
           "event_name" : "STREET PLAY",
           "event_text" : "Our chetna team is planning to conduct a street play on the ocassion of republic day to create a feeling of pride for our nation."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/chetna/item5.jpg",
           "event_name" : "OFFICIAL BLOG",
           "event_text" : "Chetna team is planning to launch NSS IIT Patna official blog where people can share there ideas and experiences with us."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/chetna/item14.jpg",
           "event_name" : "BLOOD DONATION",
           "event_text" : "Chetna team is planning for another blood donation camp in month of january or february in more planned and structured way."
         } ],
         "header" : "Future Plans and Goals",
-        "section_image_url" : "images/environment/img_2.jpg",
+        "section_image_url" : "images/chetna/img_2.jpg",
         "sub_header" : "चेतना ही विकास की जड़ होती है"
       },
       "section_main" : {
