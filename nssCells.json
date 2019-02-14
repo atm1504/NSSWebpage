@@ -154,37 +154,33 @@
       "image_url" : "images/teaching/teachinghome.jpeg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_2.jpg",
-          "event_name" : "Clean Society",
-          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          "event_image_url" : "images/teaching/navodaya.jpg",
+          "event_name" : "Navodaya Coaching",
+          "event_text" : "We give Navodaya Coaching to the students of the village."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
-          "event_name" : "<font color=\"green\">Green</font> Society",
-          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          "event_image_url" : "images/teaching/navodaya.jpg",
+          "event_name" : "Exams",
+          "event_text" : "Regular exams are conducted to check the proficiency of the students."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
-          "event_name" : "No Wastage",
-          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-        }, {
-          "event_image_url" : "images/environment/img_2.jpg",
-          "event_name" : "Biodiversity",
-          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-        } ],
+          "event_image_url" : "images/teaching/ptm.jpg",
+          "event_name" : "Parents Teacher Meeting",
+          "event_text" : "Parents teacher interaction are held to inform the parents about the progress of the students."
+        }],
         "header" : "What we thrive ?",
-        "section_image_url" : "images/environment/img_2.jpg",
+        "section_image_url" : "images/teaching/teachinghome.jpeg",
         "sub_header" : "Problems in society never stop coming, and neither will we stop solving them."
       },
       "section_main" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_1.jpg",
+          "event_image_url" : "images/teaching/teach.png",
           "event_name" : "Regular Weekly Classes<br>Wednesday, Saturday, Sunday",
           "event_text" : "The Teaching Cell volunteers conduct classes in Amhara high school , Amhara, for 4 days in a week. All the subjects included in JNVST are covered during the classes in a systematic manner."
         }, {
-          "event_image_url" : "images/environment/img_7.jpg",
+          "event_image_url" : "images/teaching/teach.png",
           "event_name" : "Tests conducted on regular basis",
           "event_text" : "Tests based on all the subjects taught in the class are conducted once in a week . These tests are checked by the team volunteers and accordingly marks are given to the students. This helps the students to keep up with topics covered in the class and also study them regularly."
         }, {
-          "event_image_url" : "images/environment/img_3.jpg",
+          "event_image_url" : "images/teaching/teach.png",
           "event_name" : "On-Going Projects",
           "event_text" : "The Teaching Cell is aiming to increase the range of the exams for which they are preparing the children. This will include covering more subjects and efforts for the all-round development of the children."
         } ],
