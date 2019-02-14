@@ -106,40 +106,40 @@
       "color_theme" : "green",
       "header" : "RURAL DEVELOPMENT",
       "header_text" : "A new day has started with the sun blossoming it's sunshine all over spreading the warmth of service to humanity. The team also works to increase health standards of women.The Rural development wing of NSS spreads the message of independent living and positive thinking a hope to see bright futures ahead!!",
-      "image_url" : "images/environment/img_2.jpg",
+      "image_url" : "images/rural/ruraldev1.jpg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/rural/shg.jpg",
           "event_name" : "SELF-HELP GROUPS",
           "event_text" : "Our Team is in preparation of establishing self help group in villages and we are in regular contact with the concerned authorites"
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/rural/startup.png",
           "event_name" : "Startups",
           "event_text" : "We aim to discover small scale techniques for employing the youth of the amhara village."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/rural/aware.png",
           "event_name" : "Awareness",
           "event_text" : "We also aim to inform Them regarding various government schemes for their development."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/rural/empower.jpg",
           "event_name" : "Women Empowerment",
           "event_text" : "We aim To make them comfortable enough so that they can talk about such issues among them."
         } ],
         "header" : "Our Objectives",
-        "section_image_url" : "images/environment/img_2.jpg",
+        "section_image_url" : "images/rural/ruraldev1.jpg",
         "sub_header" : "Problems in society never stop coming, and neither will we stop solving them."
       },
       "section_main" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_1.jpg",
+          "event_image_url" : "images/rural/wool.jpg",
           "event_name" : "Old Woolen Cloth Donation<br>24/12/2018",
           "event_text" : "In these freezy winter’s there are many people out having no proper clothes to wear where as the better ones are trying to get some thick blankets. Our team caring for the unseen world as promised earlier donates the collected woollen clothes to the needy ones."
         }, {
-          "event_image_url" : "images/environment/img_7.jpg",
+          "event_image_url" : "images/rural/clothbag.jpeg",
           "event_name" : "Cloth Bag from Old Cloth<br>17/11/2018",
           "event_text" : "The growing need for sustainable resources is a matter of concern for both environment and humans. Nothing could be much better than switching to a resource that replaces a nonsustainable one and also innovates the use of Waste Material. One such project that seems to be the need of the hour is \"CLOTH BAG\". The women of Amhara with their skills of stitching and sewing have made many cloth bags to replace the plastic ones. These bags can be used in many household chores and also they help the environment in regaining its beauty."
         }, {
-          "event_image_url" : "images/environment/img_3.jpg",
+          "event_image_url" : "images/rural/paper.png",
           "event_name" : "On-Going Projects<h3>Plastic to Paper Bag</h3>",
           "event_text" : "To replace the plastic bags and to start paper bag and cloth bag market the Rural Development cell aims to develop a start Up to involve women in strengthening their economic knowledge and develop their standards. It also comes under the latest action of Bihar Govt to Ban Polythene Throughout the Territory."
         } ],
@@ -199,9 +199,9 @@
       "image_url" : "images/technical/tech_skill.jpeg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/technical/computer.jpeg",
+          "event_image_url" : "images/technical/computer.jpg",
           "event_name" : "Computer Education",
-          "event_text" : "We teach them computers."
+          "event_text" : "We teach them the basics of computer that are required in everyday life."
         }, {
           "event_image_url" : "images/technical/english.png",
           "event_name" : "Spoken English",
@@ -211,7 +211,7 @@
           "event_name" : "Exams",
           "event_text" : "Exams are conducted regulary to check how much the students have learn."
         }, {
-          "event_image_url" : "iimages/technical/computer.jpg",
+          "event_image_url" : "images/technical/computer.jpg",
           "event_name" : "Computer Practical",
           "event_text" : "Practicals of computer are given to students, so that they can apply what they have learned."
         }, {
