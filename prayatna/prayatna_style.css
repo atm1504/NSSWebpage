@@ -120,10 +120,14 @@ body{
     align-items: center;
 }
 .header1 .row .col2 div img{
-    width: 80%;
+    width: 90%;
     border-radius: 50%;
 }
-
+@media(max-width:500px){
+    .header1 .row .col2 div img{
+        width: 100%;
+    }
+}
 .section1,.section3{
     padding: 5% 10%;
 }
