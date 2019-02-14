@@ -199,28 +199,28 @@
       "image_url" : "images/technical/tech_skill.jpeg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/technical/comp.jpeg",
+          "event_image_url" : "images/technical/computer.jpeg",
           "event_name" : "Computer Education",
           "event_text" : "We teach them computers."
         }, {
-          "event_image_url" : "images/technical/test.jpeg",
+          "event_image_url" : "images/technical/english.png",
           "event_name" : "Spoken English",
           "event_text" : "We teach them how to communicate in English."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/technical/test.jpeg",
           "event_name" : "Exams",
           "event_text" : "Exams are conducted regulary to check how much the students have learn."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "iimages/technical/computer.jpg",
           "event_name" : "Computer Practical",
           "event_text" : "Practicals of computer are given to students, so that they can apply what they have learned."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/technical/ptm.jpg",
           "event_name" : "Parents Teacher Meeting",
           "event_text" : "Parents Teacher meetings are conducted regularly."
         } ],
         "header" : "What We Teach",
-        "section_image_url" : "images/environment/img_2.jpg",
+        "section_image_url" : "images/technical/test.jpeg",
         "sub_header" : "Far far away, behind the word mountains, we have taught a lot. Few among them are..."
       },
       "section_main" : {
