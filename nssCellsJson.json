@@ -7,7 +7,7 @@
       "image_url" : "images/chetna/chetna.jpg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/environment/video.jpg",
+          "event_image_url" : "images/chetna/video.jpg",
           "event_name" : "WASTE MANAGEMENT",
           "event_text" : "Planning proper waste management system in IIT Patna campus. Waste management is intended to reduce adverse effects of waste on health, environment and aesthetics."
         }, {
@@ -196,44 +196,44 @@
       "color_theme" : "green",
       "header" : "TECHNICAL SKILLS",
       "header_text" : "<h2>Technology is just a tool.</h2>In terms of getting the kids working together and motivating them, the teacher is the most important.",
-      "image_url" : "images/environment/img_2.jpg",
+      "image_url" : "images/technical/tech_skill.jpeg",
       "section_aims" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/technical/computer.jpeg",
           "event_name" : "Computer Education",
           "event_text" : "We teach them computers."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/technical/english.png",
           "event_name" : "Spoken English",
           "event_text" : "We teach them how to communicate in English."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/technical/test.jpeg",
           "event_name" : "Exams",
           "event_text" : "Exams are conducted regulary to check how much the students have learn."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "iimages/technical/computer.jpg",
           "event_name" : "Computer Practical",
           "event_text" : "Practicals of computer are given to students, so that they can apply what they have learned."
         }, {
-          "event_image_url" : "images/environment/img_2.jpg",
+          "event_image_url" : "images/technical/ptm.jpg",
           "event_name" : "Parents Teacher Meeting",
           "event_text" : "Parents Teacher meetings are conducted regularly."
         } ],
         "header" : "What We Teach",
-        "section_image_url" : "images/environment/img_2.jpg",
+        "section_image_url" : "images/technical/test.jpeg",
         "sub_header" : "Far far away, behind the word mountains, we have taught a lot. Few among them are..."
       },
       "section_main" : {
         "content" : [ {
-          "event_image_url" : "images/environment/img_1.jpg",
+          "event_image_url" : "images/technical/test.jpeg",
           "event_name" : "Spoken English",
           "event_text" : "The Spoken English divison of NSS Technical Skill provides free Spoken English training to the village tem. Excelling them in the field of english grammar, pronounciation etc. They teach all the stuffs that would reduce the communciation gap among the students and the world."
         }, {
-          "event_image_url" : "images/environment/img_7.jpg",
+          "event_image_url" : "images/technical/comp.jpeg",
           "event_name" : "Computer",
           "event_text" : "The Computer divison of NSS Technical Skill provides free computer and technical education to the students of the village. We teach all those things that are required by an individual to fit himslef in this digital world. We have taught them to use all the basic softwares of computer. We have a future plan to teach them how to access the internet, ecommerce, e-banking, e-document chacking, land papers checking and many other useful things."
         }, {
-          "event_image_url" : "images/environment/img_3.jpg",
+          "event_image_url" : "images/technical/future.jpeg",
           "event_name" : "Future Plans",
           "event_text" : "Both the divisons work together under one umbrella \"Technical Skills\" with a motive to make the syudents self suffiecient to communicate with each other flawlessly and efficiently. Make them well acquainted with the digital world. Such that they become self sufficient to live a standard and helathy life. They should be able to make use of computer and mobile which has become an essential part of human life now a days."
         } ],
