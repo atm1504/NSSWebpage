@@ -61,6 +61,7 @@ body{
 }
 
 @media(max-width:992px){
+
     .navbar.bg-active .bg{
         opacity: 0;
     }

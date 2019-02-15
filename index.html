@@ -34,7 +34,16 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <style>
-
+.blinking{
+	animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #4F01F9;	}
+	49%{	color: #01AEF9;	}
+	50%{	color: #01F918;	}
+	99%{	color:#F95401;	}
+	100%{	color: #F90118;	}
+}
 </style>
 
 </head>
@@ -57,9 +66,14 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Gallery</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="prayatna/prayatna.html">Prayatna</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="team.html">Our Core Team</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                            </ul>
+                        </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cells <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -70,14 +84,9 @@
                                 <li><a href="cells/cells.html?cell=environment">Environmental</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="team.html">Our Core Team</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="prayatna/prayatna.html">Prayatna</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="portfolio.html">Gallery</a></li>
                         <li><a href="think_thank.html">Think-Thank</a></li>
                         <li><a href="login.html">Check-Hours</a></li>
 
@@ -99,6 +108,7 @@
                     <li data-target="#main-slider" data-slide-to="1"></li>
                     <li data-target="#main-slider" data-slide-to="2"></li>
                     <li data-target="#main-slider" data-slide-to="3"></li>
+                    <li data-target="#main-slider" data-slide-to="3"></li>
                 </ol>
 
                 <div class="carousel-inner">
@@ -109,7 +119,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="carousel-content">
-                                            <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management</marquee>
+                                            <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management.</marquee>
                                         <h1 class="animation animated-item-1">NOT ME BUT YOU</h1>
                                         <div class="animation animated-item-2">
 
@@ -118,7 +128,7 @@
     पर दुःखे उपकार करे तो ये
     मन अभिमान न आणे रे ॥<br>
                                         </div>
-                                        <a class="btn-slide animation animated-item-3" href="donation.html">DONATE</a><br>
+                                        <a class="btn-slide animation animated-item-3" href="Donation.html">DONATE</a><br>
                                         <a class="btn-slide animation animated-item-3" href="blood_request.html">Request Blood</a>
                                     </div>
                                 </div>
@@ -128,17 +138,32 @@
                     </div>
                     <!--/.item-->
 
-                    <div class="item" style="background-image: url(images/slider/techcomp.jpg)">
+                    <div class="item" style="background-image: url(images/youth/1.jpg)">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="carousel-content">
-                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management</marquee>
+                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management.</marquee>
                                         <h1 class="animation animated-item-1">NOT ME BUT YOU</h1>
                                         <div class="animation animated-item-2">
+                                        </div>
+                                        <a class="btn-slide animation animated-item-3" href="Donation.html">DONATE</a><br>
+                                        <a class="btn-slide animation animated-item-3" href="blood_request.html">Request Blood</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.item-->
 
-
-
+                    <div class="item" style="background-image: url(images/blood/item11.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="carousel-content">
+                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management.</marquee>
+                                        <h1 class="animation animated-item-1">NOT ME BUT YOU</h1>
+                                        <div class="animation animated-item-2">
                                         </div>
                                         <a class="btn-slide animation animated-item-3" href="Donation.html">DONATE</a><br>
                                         <a class="btn-slide animation animated-item-3" href="blood_request.html">Request Blood</a>
@@ -155,7 +180,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="carousel-content">
-                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management</marquee>
+                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management.</marquee>
                                         <h1 class="animation animated-item-1">NOT ME BUT YOU</h1>
                                         <div class="animation animated-item-2">
                                           <p>  यही पशु-प्रवृत्ति है कि आप आप ही चरे,<br>
@@ -171,13 +196,13 @@
                         </div>
                     </div>
                     <!--/.item-->
-                    <div class="item" style="background-image: url(images/slider/meet.jpg)">
+                    <div class="item" style="background-image: url(images/prayas/12.JPG)">
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="carousel-content">
-                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management</marquee>
+                                        <marquee style="color:red" loop="3">The NSS IIT Patna has Started Recycleable waste management.</marquee>
                                         <h1 class="animation animated-item-1">NOT ME BUT YOU</h1>
                                         <div class="animation animated-item-2">
                                           <p>  यही पशु-प्रवृत्ति है कि आप आप ही चरे,<br>
@@ -231,8 +256,7 @@
                                                   forms of the Society.NSS believes that <span>"Service to Mankind is
                                                    Service to GOD"</span> and with this mindset the members of NSS are
                                                     ready to carve out humanity out of every social cause.
-                                                    The Scheme runs under<span> Ministry of Sports and Youth Affairs,
-                                                    Govt of India</span> with a motive to inculcate <span>Social Responsibilty</span>
+                                                    The Scheme runs with a motive to inculcate <span>Social Responsibilty</span>
                                                     in the youth who will be tomorrow's work force of the Nation at Institute Level
                                                      is headed by Dr. Rajgopal Rao, supported by the General Secretary
                                                     Jagdish Anjana and Mentors of Different Cells who give guidance to
@@ -322,7 +346,7 @@
                                         <div class="col-sm-6 col-md-4 cell_anim" style="height:300px; margin-bottom: 20px;">
                                             <div class="media services-wrap fadeInDown" style="background-color: transparent;">
                                                 <div class="pull-left1">
-                                                    <img class="img-responsive centerimg" src="images/mainNSS/aware1.png" height="150" width="150">
+                                                    <img class="img-responsive centerimg" src="images/mainNSS/Chetna_final.jpg" height="150" width="150">
                                                 </div>
                                                 <div class="media-body">
                                                     <h3 class="media-heading">Chetna</h3>
@@ -360,13 +384,12 @@
                 </div>
                 <a href="Cells/prayatna.html">
                 <div class="center fadeInDown" style="border:inset;margin-top:20px;padding:20px;background-color: transparent;color:white;">
-                    <h2 style="color:white;">Prayatna-<span style="color:blue;">"Sapno ko Udaan dene ka"</span> </h2>
+                    <h2 style="color:white;">PRAYATNA<span style="color:blue;">"Sapno ko Udaan dene ka"</span> </h2>
                     <b>Initiative of IIT Patna</b>
-                    <p class="lead" style="color:white;"><b>Prayatna</b> is the Initiative taken by Alumni of IIT Patna.
+                    <p class="lead" style="color:white;"><b>PRAYATNA</b> is the Initiative taken by Alumni of IIT Patna.
                         It works on a larger domain in many nearby Villages.
                         It has its own Core Team which manages and takes decisions regarding its
                         proper functioning based on regular observations and inputs from other members involved.<br>
-                    <b>NSS</b> volunteer contribute in Prayatna regularly by taking classes.
                     </p>
 
                 </div>
@@ -430,14 +453,14 @@ NSS IITP salute the great leader Swami Vivekananda and also to youth power of In
                 <h4 class="subheading">Kerala Flood Relief</h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">The <span style="color:rgb(230, 72, 10);">Chetna Team</span> in collaboration with the <span style="color: #14418a">Student's Gymkhana</span>, along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala.
+                <p class="text-muted">The <span style="color:rgb(230, 72, 10);">Chetna Team</span> along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala.
                     A handsome amount of funds were collected from the Boy's hostel, the Girl's hostel and the Faculty quarter of IIT Patna.</p>
               </div>
             </div>
           </li>
           <li class="timeline-inverted">
-            <div class="timeline-image" ><a href="events.html">
-              <h4>More Events
+            <div class="timeline-image blinking" ><a href="events.html">
+              <h4 class="blinking">More Events
                 <br>are
                 <br>Waiting!!</h4></a>
             </div>
@@ -518,7 +541,7 @@ NSS IITP salute the great leader Swami Vivekananda and also to youth power of In
 
 
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14399.37835508978!2d84.8434447170254!3d25.54355318850096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398d567a193702ff%3A0xc9c527c7faec3056!2sIIT+Patna+Administration+Block!5e0!3m2!1sen!2sin!4v1539177184721" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+         <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

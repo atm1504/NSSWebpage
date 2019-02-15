@@ -1,0 +1,241 @@
+{
+  "cells" : {
+    "chetna" : {
+      "color_theme" : "green",
+      "header" : "CHETNA",
+      "header_text" : "We work as push-up for various nss teams and organise various camps.",
+      "image_url" : "images/chetna/chetna.jpg",
+      "section_aims" : {
+        "content" : [ {
+          "event_image_url" : "images/chetna/video.jpg",
+          "event_name" : "WASTE MANAGEMENT",
+          "event_text" : "Planning proper waste management system in IIT Patna campus. Waste management is intended to reduce adverse effects of waste on health, environment and aesthetics."
+        }, {
+          "event_image_url" : "images/chetna/c1.jpg",
+          "event_name" : "STREET PLAY",
+          "event_text" : "Our chetna team is planning to conduct a street play on the ocassion of republic day to create a feeling of pride for our nation."
+        }, {
+          "event_image_url" : "images/chetna/item5.jpg",
+          "event_name" : "OFFICIAL BLOG",
+          "event_text" : "Chetna team is planning to launch NSS IIT Patna official blog where people can share there ideas and experiences with us."
+        }, {
+          "event_image_url" : "images/chetna/item14.jpg",
+          "event_name" : "BLOOD DONATION",
+          "event_text" : "Chetna team is planning for another blood donation camp in month of january or february in more planned and structured way."
+        } ],
+        "header" : "Future Plans and Goals",
+        "section_image_url" : "images/chetna/img_2.jpg",
+        "sub_header" : "चेतना ही विकास की जड़ होती है"
+      },
+      "section_main" : {
+        "content" : [ {
+          "event_image_url" : "images/chetna/chetna2.jpg",
+          "event_name" : "Kerala Flood Distress Relief Fund",
+          "event_text" : "Kerala faced devastating floods in the month of August. So Chetna team with collaboration of Students's Gymkhana collected funds from hostels, faculty quarters, etc.Total amount collected was nearly 28,000 from the student body in cash. Moreover, online portals were also active. The total contribution from IIT P family was around 2 lakhs."
+        }, {
+          "event_image_url" : "images/chetna/chetna1.jpg",
+          "event_name" : "Blood Donation Camp",
+          "event_text" : "Blood donation is major concern to the society as donated blood is lifesaving for individuals who need it. There is shortage of active blood donors and to overcome this problem NSS IITP organise blood donation camp every year. This year it was organised on 8 September 2018 and we get nearly 80 units of blood! An online quiz and painting competition were organised by us to spread awareness about blood donation."
+        }, {
+          "event_image_url" : "images/chetna/ashraya.jpg",
+          "event_name" : "Ashraya",
+          "event_text" : "Ashraya, a charity event of celesta ,was organised in which student fraternity will be visiting a school where we would interact with students and organize fun activities, also providing them with basic provisions. To make this event success Chetna team collabrated with celesta team to collect donation in hostels, faculty quarters and staff quarters.This event was organised on 10 October 2018."
+        } ],
+        "header" : "Recent Events",
+        "sub_header" : ""
+      }
+    },
+    "environment" : {
+      "color_theme" : "green",
+      "header" : "ENVIRONMENT",
+      "header_text" : "We, <b><font color=\"#0ff71b\">ENVIRONMENT</font></b> team of NSS aim to plan and develop a cleaner and greener future for our campus and the nearby areas.",
+      "image_url" : "images/environment/img_2.jpg",
+      "section_aims" : {
+        "content" : [ {
+          "event_image_url" : "images/environment/img_2.jpg",
+          "event_name" : "Clean Society",
+          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        }, {
+          "event_image_url" : "images/environment/img_2.jpg",
+          "event_name" : "<font color=\"green\">Green</font> Society",
+          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        }, {
+          "event_image_url" : "images/environment/img_2.jpg",
+          "event_name" : "No Wastage",
+          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        }, {
+          "event_image_url" : "images/environment/img_2.jpg",
+          "event_name" : "Biodiversity",
+          "event_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        } ],
+        "header" : "What we thrive ?",
+        "section_image_url" : "images/environment/img_2.jpg",
+        "sub_header" : "Problems in society never stop coming, and neither will we stop solving them."
+      },
+      "section_main" : {
+        "content" : [ {
+          "event_image_url" : "images/environment/img_1.jpg",
+          "event_name" : "In-campus Plantation",
+          "event_text" : "This group aims at keeping the campus green , save the endangered environment and to beautify our life by planting trees at appropriate places inside the Campus. We protect plants to maintain the biodiversity and to preserve the flora and fauna."
+        }, {
+          "event_image_url" : "images/environment/img_7.jpg",
+          "event_name" : "Clean India",
+          "event_text" : "Swachh Bharat Abhiyan launched by our prime minister, invalues the constitution of latrines, promoting sanitation programmes in the rural area, cleaning streets, roads and changing the infrastructure of the country to lead the country ahead. We wish to contribute in this mission by implementing it inside our campus and nearby areas"
+        }, {
+          "event_image_url" : "images/environment/img_3.jpg",
+          "event_name" : "Out-campus Plantation",
+          "event_text" : "We started with spreading awareness amongst the people in the nearby village Amhara about the various plantation schemes which the government is running for the benefit of them. We collected a lot of information about problems villagers are facing. Now we are going to explain these schemes to the villagers and help them with their scheme of interest. We aid them in contacting the government and regularly attend them to help them time to time."
+        }, {
+          "event_image_url" : "images/environment/img_6.jpg",
+          "event_name" : "Plantation Drives",
+          "event_text" : "Plantation Drive was organized by us on 18th November 2018. All the necessary arrangements were made by the students so as to make the plantation drive a success. We bought about 150 saplings of ARJUNA tree. The team had already located areas where the plants need to be planted and within 4 hours, about 110 trees were planted. Students dug the ground and planted trees by themselves along with the assistance of NSS volunteers. The NSS Environment cell looks forward to organizing the same in future."
+        }, {
+          "event_image_url" : "images/environment/img_9.jpg",
+          "event_name" : "Cleanliness Drives",
+          "event_text" : "Under the Swachhta Pakhwada Of Swachh Bharat Mission, Five cleanliness drives were conducted by the NSS Environment wing. We collected the wastes spread around the area and also promoted segregation of waste materials. Professor-InCharge of NSS also participated in these drives to motivate us towards keeping our surroundings clean. Cleanliness Drives were conducted inside the campus from 8th to 15th September 2018."
+        }, {
+          "event_image_url" : "images/environment/img_8.jpg",
+          "event_name" : "Future Plans",
+          "event_text" : "We are going to help people in the nearby villages with their agricultural problems and aim to develop an innovation team in our cell to come up with new ideas to improve the agriculture conditions of the villagers. Through the innovation team, we will not just be helping farmers nearby, but whole India. We have also planned to work towards creating a park inside the campus."
+        } ],
+        "header" : "What we do ?",
+        "sub_header" : ""
+      }
+    },
+    "rural" : {
+      "color_theme" : "green",
+      "header" : "RURAL DEVELOPMENT",
+      "header_text" : "A new day has started with the sun blossoming it's sunshine all over spreading the warmth of service to humanity. The team also works to increase health standards of women.The Rural development wing of NSS spreads the message of independent living and positive thinking a hope to see bright futures ahead!!",
+      "image_url" : "images/rural/ruraldev1.jpg",
+      "section_aims" : {
+        "content" : [ {
+          "event_image_url" : "images/rural/shg.jpg",
+          "event_name" : "SELF-HELP GROUPS",
+          "event_text" : "Our Team is in preparation of establishing self help group in villages and we are in regular contact with the concerned authorites"
+        }, {
+          "event_image_url" : "images/rural/startup.png",
+          "event_name" : "Startups",
+          "event_text" : "We aim to discover small scale techniques for employing the youth of the amhara village."
+        }, {
+          "event_image_url" : "images/rural/aware.png",
+          "event_name" : "Awareness",
+          "event_text" : "We also aim to inform Them regarding various government schemes for their development."
+        }, {
+          "event_image_url" : "images/rural/empower.jpg",
+          "event_name" : "Women Empowerment",
+          "event_text" : "We aim To make them comfortable enough so that they can talk about such issues among them."
+        } ],
+        "header" : "Our Objectives",
+        "section_image_url" : "images/rural/ruraldev1.jpg",
+        "sub_header" : "Problems in society never stop coming, and neither will we stop solving them."
+      },
+      "section_main" : {
+        "content" : [ {
+          "event_image_url" : "images/rural/wool.jpg",
+          "event_name" : "Old Woolen Cloth Donation<br>24/12/2018",
+          "event_text" : "In these freezy winter’s there are many people out having no proper clothes to wear where as the better ones are trying to get some thick blankets. Our team caring for the unseen world as promised earlier donates the collected woollen clothes to the needy ones."
+        }, {
+          "event_image_url" : "images/rural/clothbag.jpeg",
+          "event_name" : "Cloth Bag from Old Cloth<br>17/11/2018",
+          "event_text" : "The growing need for sustainable resources is a matter of concern for both environment and humans. Nothing could be much better than switching to a resource that replaces a nonsustainable one and also innovates the use of Waste Material. One such project that seems to be the need of the hour is \"CLOTH BAG\". The women of Amhara with their skills of stitching and sewing have made many cloth bags to replace the plastic ones. These bags can be used in many household chores and also they help the environment in regaining its beauty."
+        }, {
+          "event_image_url" : "images/rural/paper.png",
+          "event_name" : "On-Going Projects<h3>Plastic to Paper Bag</h3>",
+          "event_text" : "To replace the plastic bags and to start paper bag and cloth bag market the Rural Development cell aims to develop a start Up to involve women in strengthening their economic knowledge and develop their standards. It also comes under the latest action of Bihar Govt to Ban Polythene Throughout the Territory."
+        } ],
+        "header" : "Recent Events",
+        "sub_header" : ""
+      }
+    },
+    "teaching" : {
+      "color_theme" : "green",
+      "header" : "TEACHING",
+      "header_text" : "A true guiding light is what lightens up the path towards a better future of a child. The NSS teaching cell works on the same lines with a motive to teach the young students of Amhara and make them aware about the various career opportunities they have.",
+      "image_url" : "images/teaching/teachinghome.jpeg",
+      "section_aims" : {
+        "content" : [ {
+          "event_image_url" : "images/teaching/navodaya.jpg",
+          "event_name" : "Navodaya Coaching",
+          "event_text" : "We give Navodaya Coaching to the students of the village."
+        }, {
+          "event_image_url" : "images/teaching/navodaya.jpg",
+          "event_name" : "Exams",
+          "event_text" : "Regular exams are conducted to check the proficiency of the students."
+        }, {
+          "event_image_url" : "images/teaching/ptm.jpg",
+          "event_name" : "Parents Teacher Meeting",
+          "event_text" : "Parents teacher interaction are held to inform the parents about the progress of the students."
+        }],
+        "header" : "What we thrive ?",
+        "section_image_url" : "images/teaching/teachinghome.jpeg",
+        "sub_header" : "Problems in society never stop coming, and neither will we stop solving them."
+      },
+      "section_main" : {
+        "content" : [ {
+          "event_image_url" : "images/teaching/teach.png",
+          "event_name" : "Regular Weekly Classes<br>Wednesday, Saturday, Sunday",
+          "event_text" : "The Teaching Cell volunteers conduct classes in Amhara high school , Amhara, for 4 days in a week. All the subjects included in JNVST are covered during the classes in a systematic manner."
+        }, {
+          "event_image_url" : "images/teaching/teach.png",
+          "event_name" : "Tests conducted on regular basis",
+          "event_text" : "Tests based on all the subjects taught in the class are conducted once in a week . These tests are checked by the team volunteers and accordingly marks are given to the students. This helps the students to keep up with topics covered in the class and also study them regularly."
+        }, {
+          "event_image_url" : "images/teaching/teach.png",
+          "event_name" : "On-Going Projects",
+          "event_text" : "The Teaching Cell is aiming to increase the range of the exams for which they are preparing the children. This will include covering more subjects and efforts for the all-round development of the children."
+        } ],
+        "header" : "Events We Conduct!!",
+        "sub_header" : ""
+      }
+    },
+    "technical" : {
+      "color_theme" : "green",
+      "header" : "TECHNICAL SKILLS",
+      "header_text" : "<h2>Technology is just a tool.</h2>In terms of getting the kids working together and motivating them, the teacher is the most important.",
+      "image_url" : "images/technical/tech_skill.jpeg",
+      "section_aims" : {
+        "content" : [ {
+          "event_image_url" : "images/technical/computer.jpg",
+          "event_name" : "Computer Education",
+          "event_text" : "We teach them the basics of computer that are required in everyday life."
+        }, {
+          "event_image_url" : "images/technical/english.png",
+          "event_name" : "Spoken English",
+          "event_text" : "We teach them how to communicate in English."
+        }, {
+          "event_image_url" : "images/technical/test.jpeg",
+          "event_name" : "Exams",
+          "event_text" : "Exams are conducted regulary to check how much the students have learn."
+        }, {
+          "event_image_url" : "images/technical/computer.jpg",
+          "event_name" : "Computer Practical",
+          "event_text" : "Practicals of computer are given to students, so that they can apply what they have learned."
+        }, {
+          "event_image_url" : "images/technical/ptm.jpg",
+          "event_name" : "Parents Teacher Meeting",
+          "event_text" : "Parents Teacher meetings are conducted regularly."
+        } ],
+        "header" : "What We Teach",
+        "section_image_url" : "images/technical/test.jpeg",
+        "sub_header" : "Far far away, behind the word mountains, we have taught a lot. Few among them are..."
+      },
+      "section_main" : {
+        "content" : [ {
+          "event_image_url" : "images/technical/test.jpeg",
+          "event_name" : "Spoken English",
+          "event_text" : "The Spoken English divison of NSS Technical Skill provides free Spoken English training to the village tem. Excelling them in the field of english grammar, pronounciation etc. They teach all the stuffs that would reduce the communciation gap among the students and the world."
+        }, {
+          "event_image_url" : "images/technical/comp.jpeg",
+          "event_name" : "Computer",
+          "event_text" : "The Computer divison of NSS Technical Skill provides free computer and technical education to the students of the village. We teach all those things that are required by an individual to fit himslef in this digital world. We have taught them to use all the basic softwares of computer. We have a future plan to teach them how to access the internet, ecommerce, e-banking, e-document chacking, land papers checking and many other useful things."
+        }, {
+          "event_image_url" : "images/technical/future.jpeg",
+          "event_name" : "Future Plans",
+          "event_text" : "Both the divisons work together under one umbrella \"Technical Skills\" with a motive to make the syudents self suffiecient to communicate with each other flawlessly and efficiently. Make them well acquainted with the digital world. Such that they become self sufficient to live a standard and helathy life. They should be able to make use of computer and mobile which has become an essential part of human life now a days."
+        } ],
+        "header" : "Our Activity...",
+        "sub_header" : ""
+      }
+    }
+  }
+}
