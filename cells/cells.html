@@ -21,7 +21,6 @@
                 width: 100%;
                 height: 100vh;
                 overflow: visible;
-                display: none;
             }
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -71,7 +70,7 @@
             <div class="header1" data-stellar-background-ratio="0.5">
                 <div class="text-center">
                     <h1 data-tilt></h1>
-                    <p data-tilt></p>
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -169,17 +168,9 @@
                     $('.section-2 .container .row').append(card);
                 });
 
-
-
-
                 /*section 3*/
                 $('.section-3 iframe').attr("src",query+".html");
-                var team=dt.section_team;
-                var teamcont=team.content;
-                $('.section-3 .row1 .heading-1').text(team.header);
-                $('.section-3 .row1 .para-1').text(team.sub_header);
-                $('.section-3 .row1 .mentor img').attr('src',team.mentor_image_url);
-                $('.section-3 .row1 .mentor h3').text(team.mentor_name);
+
 
                 function preloader(){
                     var loader=document.getElementById("loader");
