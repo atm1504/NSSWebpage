@@ -128,13 +128,13 @@ body{
         width: 100%;
     }
 }
-.section1,.section3{
+.section1{
     padding: 5% 10%;
 }
-.section1 .container,.section3 .container{
+.section1 .container{
     background: rgba(0,0,0,.2);
     padding: 5%;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 10px 15px rgba(0,0,0,.5);
 }
 .section1 .item p,.section3 .item p{
@@ -146,21 +146,30 @@ body{
 }
 .section2 .container{
     padding: 5% 0;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 10px 15px rgba(0,0,0,.5);
     background: linear-gradient(45deg,rgba(132, 100, 180, .8),rgba(52, 242, 38, 1),rgba(242, 45, 38, .5),rgba(222, 59, 203, 1),rgba(59, 184, 222, 1));
-    animation: animate 3s linear infinite;
+    animation: animate 10s linear infinite;
 }
 @keyframes animate{
     0%{
         background-size:100%;
     }
+    25%{
+        background-size:200%;
+    }
     50%{
+        background-size:300%;
+    }
+    75%{
         background-size:200%;
     }
     100%{
         background-size:100%;
     }
+}
+.section2{
+    padding: 0 10%;
 }
 .section2 .row .col1,.section2 .row .col2 div{
     display: flex;
