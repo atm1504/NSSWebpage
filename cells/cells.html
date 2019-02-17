@@ -70,7 +70,7 @@
             <div class="header1" data-stellar-background-ratio="0.5">
                 <div class="text-center">
                     <h1 data-tilt></h1>
-                    <p data-tilt></p>
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -167,6 +167,9 @@
                     var card=$('<div class="col-lg-3 col-md-6"><div class="card"><img src="'+cont.event_image_url+'" class="card-img-top"><div class="card-body"><h4 class="card-title">'+cont.event_name+'</h4><p class="card-text">'+cont.event_text+'</p></div></div></div>');
                     $('.section-2 .container .row').append(card);
                 });
+
+                /*section 3*/
+                $('.section-3 iframe').attr("src",query+".html");
 
 
                 function preloader(){
