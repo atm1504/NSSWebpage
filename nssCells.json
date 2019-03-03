@@ -155,7 +155,7 @@
       "section_aims" : {
         "content" : [ {
           "event_image_url" : "images/teaching/navodaya.jpg",
-          "event_name" : "Navodaya Coaching",
+          "event_name" : "Educational Training",
           "event_text" : "We give Navodaya Coaching to the students of the village."
         }, {
           "event_image_url" : "images/teaching/navodaya.jpg",
@@ -165,7 +165,7 @@
           "event_image_url" : "images/teaching/ptm.jpg",
           "event_name" : "Parents Teacher Meeting",
           "event_text" : "Parents teacher interaction are held to inform the parents about the progress of the students."
-        }],
+        } ],
         "header" : "What we thrive ?",
         "section_image_url" : "images/teaching/teachinghome.jpeg",
         "sub_header" : "Problems in society never stop coming, and neither will we stop solving them."
