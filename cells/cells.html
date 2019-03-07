@@ -152,7 +152,7 @@
                 $('.section-1 .para-1').text(main.sub_header);
                 var maincont=main.content;
                 maincont.forEach(function(cont){
-                    var card=$('<div class="row"><div class="col-md-6"><div class="img"><img src="'+cont.event_image_url+'"></div></div><div class="col-md-6"><div class="content"><h4>'+cont.event_name+'</h4><p>'+cont.event_text+'</p></div></div></div>');
+                    var card=$('<div class="row"><div class="col-md-6"><a href="'+ cont.flink+'" target="_blank" style="color:black"; padding-left:"5px"><div class="img"><img src="'+cont.event_image_url+'"></div></div><div class="col-md-6"><div class="content"><h4>'+cont.event_name+'</h4><p>'+cont.event_text+'</p></div></a></div></div>');
                     $('.section-1 .container').append(card);
 
                 })
