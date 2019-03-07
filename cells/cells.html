@@ -164,7 +164,7 @@
                 $('.section-2 .para-1').text(sec.sub_header);
                 var seccont=sec.content;
                 seccont.forEach(function(cont){
-                    var card=$('<div class="col-lg-3 col-md-6"><div class="card"><img src="'+cont.event_image_url+'" class="card-img-top"><div class="card-body"><h4 class="card-title">'+cont.event_name+'</h4><p class="card-text">'+cont.event_text+'</p></div></div></div>');
+                    var card=$('<div class="col-lg-3 col-md-6 m-auto"><div class="card"><img src="'+cont.event_image_url+'" class="card-img-top"><div class="card-body"><h4 class="card-title">'+cont.event_name+'</h4><p class="card-text">'+cont.event_text+'</p></div></div></div>');
                     $('.section-2 .container .row').append(card);
                 });
 
