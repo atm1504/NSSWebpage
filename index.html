@@ -96,7 +96,9 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>  
     </header>
     <!--/header-->
 
@@ -562,12 +564,17 @@ NSS IITP salute the great leader Swami Vivekananda and also to youth power of In
         var header = document.getElementById("header");
         var sticky = header.offsetTop;
         function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
           if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
           } else {
             header.classList.remove("sticky");
           }
         }
+        
         </script>
 
         <div id="fb-root"></div>
