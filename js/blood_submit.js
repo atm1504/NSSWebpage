@@ -30,12 +30,14 @@ var address= getInputVal('BAddress')
 saveMessage(name,id_roll,email,phone,for_whom,address);
 
 //Show alert
-document.querySelector('.alert').getElementsByClassName.display='block';
+document.querySelector('.alert').style.display='block';
 
 //Hide alert after 3seconds
 setTimeout(function(){
-    document.querySelector('.alert').getElementsByClassName.display='none';
+    document.querySelector('.alert').style.display='none';
 },3000);
+
+document.getElementById('bloodRequestForm').reset();
 }
 
 //Function to get form values
