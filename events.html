@@ -68,6 +68,18 @@
 <!--/head-->
 
 <body class="homepage">
+    <div id="loader"></div>
+    <style>
+        #loader{
+            position: fixed;
+            background: #000 url("cells/loader.gif") no-repeat center center;
+            background-size: cover;
+            z-index: 9999;
+            width: 100%;
+            height: 100vh;
+            overflow: visible;
+        }
+    </style>
     <header id="header">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -88,7 +100,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="team.html">Our Core Team</a></li>
+                                <li><a href="team.html">Our Team</a></li>
                                 <li><a href="faq.html">Faqs</a></li>
                             </ul>
                         </li>
@@ -114,7 +126,9 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>  
     </header>
     <!--/header-->
     <div class="page-title" style=" background-image: url(images/mainNSS/plate2.jpg);background-repeat: no-repeat;background-size: 100% 100%;height:200px;">
@@ -145,18 +159,24 @@
     <script src="js/main.js"></script>
 
     <!-- Defining function for fixed header -->
-        <script>
+          <script>
         window.onscroll = function() {myFunction()};
         var header = document.getElementById("header");
         var sticky = header.offsetTop;
         function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
           if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
           } else {
             header.classList.remove("sticky");
           }
         }
+        
         </script>
+
         <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -176,7 +196,7 @@
 <script>
 
       $.ajax({
-        url: 'https://friendlychat-d9155.firebaseio.com/.json',
+        url: 'https://nss-webpage.firebaseio.com/.json',
         type: 'GET',
         dataType: "json",
         success: displayAll
@@ -198,6 +218,22 @@
     }}
 
           document.getElementById("eventshow").innerHTML=x;
+          function preloader(){
+                    var loader=document.getElementById("loader");
+                    function loadNow(opacity){
+                        if(opacity<=0){
+                            loader.style.display='none';
+                        }
+                        else{
+                            loader.style.opacity=opacity;
+                            window.setTimeout(function(){
+                                loadNow(opacity - 0.01);
+                            },5);
+                        }
+                    }
+                    loadNow(1);
+                }
+                preloader();
         }
 </script>
 </body>

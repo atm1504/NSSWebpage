@@ -78,7 +78,7 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu">
                               <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="team.html">Our Core Team</a></li>
+                              <li><a href="team.html">Our Team</a></li>
                               <li><a href="faq.html">Faqs</a></li>
                           </ul>
                       </li>
@@ -116,46 +116,47 @@
 <!--Form start here-->
     <div class="container-contact100">
       <div class="wrap-contact100">
-        <form class="contact100-form validate-form">
+        <form class="contact100-form validate-form" id="bloodRequestForm">
           <span class="contact100-form-title">
             Request Blood
           </span>
 
           <div class="wrap-input100 validate-input" data-validate="Name is required">
             <span class="label-input100">Your Name</span>
-            <input class="input100" type="text" name="name" placeholder="Enter your name here...">
+            <input class="input100" type="text" name="name" placeholder="Enter your name here..." id="BName" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" >
             <span class="label-input100">Roll No/Employee ID if from IIT Patna</span>
-            <input class="input100" type="text" name="ID" font-size="12px" placeholder="Enter your Roll No/Employee ID here...">
+            <input class="input100" type="text" name="ID" font-size="12px" placeholder="Enter your Roll No/Employee ID here..." id="BRoll" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
             <span class="label-input100">Email</span>
-            <input class="input100" type="text" name="email" placeholder="Enter your email id here...">
+            <input class="input100" type="text" name="email" placeholder="Enter your email id here..." id="BEmail" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" pattern="[6-9]{1}[0-9]{9}" data-validate="Valid phone is required: 3456789121">
             <span class="label-input100">Phone Number</span>
-            <input class="input100" type="text" name="phone" placeholder="Enter your phone number here...">
+            <input class="input100" type="text" name="phone" placeholder="Enter your phone number here..." id="BPhone" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" >
             <span class="label-input100">For whom do you want Blood Doner card? </span>
-            <input class="input100" type="text" name="blood_doner_card" font-size="12px" placeholder="Enter for whom you want to take blood doner card...">
+            <input class="input100" type="text" name="blood_doner_card" font-size="12px" placeholder="Enter for whom you want to take blood doner card..." id="BForWhom" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate = "Message is required">
             <span class="label-input100">Address</span>
-            <textarea class="input100" name="message" placeholder="Write your address here..."></textarea>
+            <textarea class="input100" name="message" placeholder="Write your address here..." id="BAddress" required></textarea>
             <span class="focus-input100"></span>
           </div>
+          <div class="alert">Your request has been sent to NSS IIT Patna Team.</div>
 
           <div class="container-contact100-form-btn">
             <div class="wrap-contact100-form-btn">
@@ -235,6 +236,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script src="js/blood_submit.js"></script>
     </body>
 
     </html>

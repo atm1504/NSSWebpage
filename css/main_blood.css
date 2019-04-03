@@ -552,3 +552,13 @@ textarea.input100 {
   color: #333333;
   line-height: 1.2;
 }
+.alert{
+  text-align: center;
+  padding: 10px;
+  background:#79c879;
+  color: #fff;
+  margin-bottom:10px;
+  margin-top:5px;
+  display: none;
+
+}
