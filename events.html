@@ -196,7 +196,7 @@
 <script>
 
       $.ajax({
-        url: 'https://nss-webpage.firebaseio.com/.json',
+        url: 'https://webpage-events-cells.firebaseio.com/.json',
         type: 'GET',
         dataType: "json",
         success: displayAll
@@ -205,8 +205,7 @@
     function displayAll(data){
       var  x="";
       var jsons=data;
-      var types=jsons.type;
-      var contents=types.events;
+      var contents=data.events;
       var datas="";
       for (i in contents){
         datas=contents[i];
