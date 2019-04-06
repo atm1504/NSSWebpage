@@ -419,52 +419,8 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul class="timeline">
-        <li>
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="images/events/womens.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>8th March, 2019</h4>
-                <h4 class="subheading">Womens Day</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">There is only one thing in the Universe which a woman still needs to learn and that one thing is that, ‘she has the power to turn the direction of the wind on her own’.
-                 Focussing on this fact NSS IIT Patna conducted events among women of the village to empower them.</p>
-              </div>
-            </div>
-          </li>
-        <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="images/events/prayas.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>27th January, 2019</h4>
-                <h4 class="subheading">Prayas</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">"Prayas" an urge to help, and try till you succeed was the message spread by NSS. It was inaugurated on 27th of January with a basic aim to organise various activities for the children of Amhara High School.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="images/mainNSS/youth.jpg" alt="" >
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>12 Jan 2019</h4>
-                <h4 class="subheading">National Youth Day</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">NSS IITP organised a march on the occasion of youth day on 12th Jan 2019 to promote the ideology of precious gem of India Swami Vivekananda.
-NSS IITP salute the great leader Swami Vivekananda and also to youth power of India.</p>
-              </div>
-            </div>
-          </li>
-          
+        <ul class="timeline" id="eventshow">
+        
           
           <li class="timeline-inverted">
             <div class="timeline-image blinking" ><a href="events.html">
@@ -585,6 +541,43 @@ NSS IITP salute the great leader Swami Vivekananda and also to youth power of In
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+
+      $.ajax({
+        url: 'https://webpage-events-cells.firebaseio.com/.json',
+        type: 'GET',
+        dataType: "json",
+        success: displayAll
+    });
+
+    function displayAll(data){
+      var  x="";
+      var count=0;
+      var jsons=data;
+      var contents=data.events;
+      var datas="";
+      for (i in contents){
+        datas=contents[i];
+        if (datas.active=="1"){
+          if (datas.id=="1"){
+            x+=  "<li class='timeline-straight' ><a href='"+datas.flink+"'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+        }
+          else {
+            x+=  "<li class='timeline-inverted'><a href='"+datas.flink+"'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+            }
+            count+=1;
+        }
+        if(count==3){
+            break;
+        }
+      }
+      x+="<li class='timeline-inverted'><div class='timeline-image blinking' ><a href='events.html'><h4 class='blinking'>More Events<br>are<br>Waiting!!</h4></a></div></li>"
+
+          document.getElementById("eventshow").innerHTML=x;
+        }
+</script>
+
 </body>
 
 </html>
