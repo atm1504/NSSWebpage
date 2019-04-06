@@ -209,12 +209,15 @@
       var datas="";
       for (i in contents){
         datas=contents[i];
-        if (datas.id=="1"){
-          x+=  "<li class='timeline-straight' ><a href='"+datas.flink+"'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+        if (datas.active=="1"){
+          if (datas.id=="1"){
+            x+=  "<li class='timeline-straight' ><a href='"+datas.flink+"'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+        }
+          else {
+            x+=  "<li class='timeline-inverted'><a href='"+datas.flink+"'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
+            }
+        }
       }
-        else {
-          x+=  "<li class='timeline-inverted'><a href='"+datas.flink+"'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src="+ datas.img_url+" alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>"+ datas.date+"</h4><h4 class='subheading'>"+datas.subheading+"</h4></div><div class='timeline-body'><p class='details'>"+datas.details+"</p></div></div></li>";
-    }}
 
           document.getElementById("eventshow").innerHTML=x;
           function preloader(){
